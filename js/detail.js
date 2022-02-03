@@ -38,7 +38,7 @@ function renderPost(post) {
 
     editPostLink.textContent = 'Edit Post'
     editPostLink.addEventListener('click', () => {
-        window.location.assign(`add-edit-post-ezfrontend.html?id=${id}`)
+        window.location.assign(`add-edit-post.html?id=${id}`)
     })
 }
 

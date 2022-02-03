@@ -32,8 +32,6 @@ function jsonToFormData(jsonData) {
 }
 
 async function handleSubmit(formValues) {
-    console.log(formValues)
-    return
     try {
         const payload = removeUnusedFields(formValues)
         const formData = jsonToFormData(payload)

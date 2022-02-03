@@ -72,7 +72,7 @@ export function createPostElement(post) {
 
     const editPostBtn = liElement.querySelector('[data-id="edit"]')
     editPostBtn.addEventListener('click', (e) => {
-        window.location.assign(`add-edit-post-ezfrontend.html?id=${post.id}`)
+        window.location.assign(`add-edit-post.html?id=${post.id}`)
     })
 
     return liElement

@@ -1,9 +1,6 @@
 {
     "name": "js-post-ui",
     "version": "0.0.0",
-    "resolutions": {
-        "mini-css-extract-plugin": "2.4.5"
-    },
     "scripts": {
         "dev": "vite",
         "build": "vite build",
