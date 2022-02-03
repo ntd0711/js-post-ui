@@ -1,0 +1,33 @@
+#randomUpload {
+    display: none;
+}
+#randomUpload.active {
+    display: block;
+}
+
+#manuallyUpload {
+    display: none;
+    max-width: 50%;
+}
+
+#manuallyUpload.active {
+    display: inline-flex;
+}
+
+#postHeroImage {
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
+#postForm > .form-group > .invalid-feedback.active {
+    display: block;
+}
+
+#postForm > .form-group > .invalid-feedback.error {
+    display: block;
+}
+
+#postForm > .form-group > .form-control.error {
+    border-color: #dc3545;
+}
